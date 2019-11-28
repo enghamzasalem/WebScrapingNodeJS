@@ -1,4 +1,5 @@
 const rp = require("request-promise");
+const request = require("request");
 const $ = require("cheerio");
 const url = "https://io.hsoub.com";
 const encoded = encodeURI(url);
